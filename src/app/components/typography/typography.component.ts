@@ -190,6 +190,8 @@ export class TypographyComponent implements OnInit {
       "icon": "wedding-house-01.jpg"
     }
   ]
+
+  
   constructor() { }
 
   ngOnInit() {}

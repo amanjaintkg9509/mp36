@@ -6,7 +6,7 @@
                     <h3>Category</h3>
                 </div> -->
                 <div class="row">
-                    <div class="col-xs-6  col-sm-2 col-md-2" *ngFor="let lis of categories">
+                    <div class="col-xs-6  col-sm-2 col-md-2 pointer" *ngFor="let lis of categories" routerLink="/listing">
                         <img src="assets/img/icons/{{lis.icon}}" class="img-thumbnail img-responsive" alt="Rounded Image">
                         <p class="text-center">{{lis.name}}</p>
                     </div>
