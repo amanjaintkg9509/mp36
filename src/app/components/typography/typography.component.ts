@@ -62,6 +62,10 @@ export class TypographyComponent implements OnInit {
       "icon": "catering.png"
     },
     {
+      "name": "CCTV",
+      "icon": "cctv.jpeg"
+    },
+    {
       "name": "Chemists",
       "icon": "chemists.jpg"
     },

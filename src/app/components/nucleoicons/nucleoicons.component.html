@@ -6,13 +6,15 @@
                     <h3>Category</h3>
                 </div> -->
                 <div class="row">
-                    <div class="col-xs-6  col-sm-4 col-md-3" *ngFor="let lis of categories">
-                        <div class="card text-white bg-primary mb-3" style="width: 14rem;">
-                            <img class="card-img-top" src="assets/img/icons/{{lis.icon}}" height="200px" alt="Card image cap">
+                    <div class="col-xs-6  col-sm-4 col-md-3" *ngFor="let lis of categories; let i=index;">
+                        <div class="card mb-3" style="width: 14rem;">
+                            <img class="card-img-top" src="https://picsum.photos/200/300?random={{i}}" height="200px" alt="Card image cap">
                             <div class="card-body">
-                              <h5 class="card-title">{{lis.name}}</h5>
-                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                              <a href="#" class="btn btn-warning">Detail</a>
+                              <h5 class="card-title" style="font-family: fantasy; text-align: center;"><b>{{lis.name}}</b></h5>
+                              <p class="card-text">
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                              </p>
+                              <button href="#" class="btn btn btn-outline-primary block">Detail</button>
                             </div>
                           </div>
                     </div>
