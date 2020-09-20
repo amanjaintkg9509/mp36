@@ -1,3 +1,12 @@
+<nav class="navbar navbar-dark bg-primary">
+    <a class="navbar-brand">MP-36</a>
+</nav>
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a routerLink="">Home</a></li>
+      <li class="breadcrumb-item active" aria-current="page">Shop-List</li>
+    </ol>
+</nav>
 <div class="section">
     <div class="container tim-container">
         <div id="images">
@@ -7,14 +16,14 @@
                 </div> -->
                 <div class="row">
                     <div class="col-xs-6  col-sm-4 col-md-3" *ngFor="let lis of categories; let i=index;">
-                        <div class="card mb-3" style="width: 14rem;">
+                        <div class="card mb-3" style="width: 14rem;border: solid;">
                             <img class="card-img-top" src="https://picsum.photos/200/300?random={{i}}" height="200px" alt="Card image cap">
                             <div class="card-body">
                               <h5 class="card-title" style="font-family: fantasy; text-align: center;"><b>{{lis.name}}</b></h5>
                               <p class="card-text">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                Box 564, Disneyland
                               </p>
-                              <button href="#" class="btn btn btn-outline-primary block">Detail</button>
+                              <button routerLink="/detail" class="btn btn btn-outline-primary block">Detail</button>
                             </div>
                           </div>
                     </div>

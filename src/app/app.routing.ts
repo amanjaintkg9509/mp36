@@ -5,20 +5,21 @@ import { Routes, RouterModule } from '@angular/router';
 
 import { ComponentsComponent } from './components/components.component';
 import { NucleoiconsComponent } from './components/nucleoicons/nucleoicons.component';
+import { ShopDetailComponent } from './components/shop-detail/shop-detail.component';
+import { NewsFeedComponent } from './components/news-feed/news-feed.component';
 
 const routes: Routes =[
     { path: '', component: ComponentsComponent, pathMatch: 'full' },
-    { path: 'home',component: ComponentsComponent },
-    { path: 'listing',      component: NucleoiconsComponent }
+    { path: 'listing',      component: NucleoiconsComponent },
+    { path: 'detail',      component: ShopDetailComponent },
+    { path: 'news',      component: NewsFeedComponent }
 ];
 
 @NgModule({
   imports: [
     CommonModule,
     BrowserModule,
-    RouterModule.forRoot(routes,{
-      useHash: true
-    })
+    RouterModule.forRoot(routes)
   ],
   exports: [
   ],

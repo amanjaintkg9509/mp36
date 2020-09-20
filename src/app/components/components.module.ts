@@ -14,6 +14,8 @@ import { ComponentsComponent } from './components.component';
 import { NotificationComponent } from './notification/notification.component';
 import { NgbdModalComponent } from './modal/modal.component';
 import { NgbdModalContent } from './modal/modal.component';
+import { ShopDetailComponent } from './shop-detail/shop-detail.component';
+import { NewsFeedComponent } from './news-feed/news-feed.component';
 
 @NgModule({
     imports: [
@@ -32,7 +34,9 @@ import { NgbdModalContent } from './modal/modal.component';
         NucleoiconsComponent,
         NotificationComponent,
         NgbdModalComponent,
-        NgbdModalContent
+        NgbdModalContent,
+        ShopDetailComponent,
+        NewsFeedComponent
     ],
     entryComponents: [NgbdModalContent],
     exports:[ ComponentsComponent ]
