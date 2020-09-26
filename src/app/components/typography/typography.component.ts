@@ -11,55 +11,55 @@ export class TypographyComponent implements OnInit {
   categories= [
     {
        "name": "B2B",
-       "icon":"b2b.png"
+       "icon":"b2b.webp"
     },
     {
       "name": "Air Tickets",
-      "icon":"airticket.jpg"
+      "icon":"airticket.webp"
     },
     {
       "name": "Anything on Hire",
-      "icon": "hire.png"
+      "icon": "hire.webp"
     },
     {
       "name": "Apply for Loans",
-      "icon": "loan.png"
+      "icon": "loan.webp"
     },
     {
       "name": "Auto Care",
-      "icon": "auto-care.jpg"
+      "icon": "auto-care.webp"
     },
     {
       "name": "Auto Mobile",
-      "icon": "auto-mobile.jpg"
+      "icon": "auto-mobile.webp"
     },
     {
       "name": "Baby Care",
-      "icon": "baby-care.jpg"
+      "icon": "baby-care.webp"
     },
-    {
+    { 
       "name": "Banqutes",
-      "icon": "banquet.jpg"
+      "icon": "banquet.webp"
     },
     {
       "name": "Book Hotel",
-      "icon": "book-hotels.png"
+      "icon": "book-hotels.webp"
     },
     {
       "name": "Books",
-      "icon": "books.png"
+      "icon": "books.webp"
     },
     {
       "name": "Bus",
-      "icon": "bus.jpg"
+      "icon": "bus.webp"
     },
     {
       "name": "Cab & Car Rentals",
-      "icon": "car-rental.png"
+      "icon": "car-rental.webp"
     },
     {
       "name": "Caterers",
-      "icon": "catering.png"
+      "icon": "catering.webp"
     },
     {
       "name": "CCTV",
@@ -67,131 +67,131 @@ export class TypographyComponent implements OnInit {
     },
     {
       "name": "Chemists",
-      "icon": "chemists.jpg"
+      "icon": "chemists.webp"
     },
     {
       "name": "Civil Contrators",
-      "icon": "civil-contractors.jpg"
+      "icon": "civil-contractors.webp"
     },
     {
       "name": "Computer & Repairs",
-      "icon": "computer.png"
+      "icon": "computer.webp"
     },
     {
       "name": "Courier",
-      "icon": "courier.jpg"
+      "icon": "courier.webp"
     },
     {
       "name": "Daily Needs",
-      "icon": "DailyNeeds.jpg"
+      "icon": "DailyNeeds.webp"
     },
     {
       "name": "Dance & Music",
-      "icon": "Dance-Site-Banner.jpg"
+      "icon": "Dance-Site-Banner.webp"
     },
     {
       "name": "Doctor",
-      "icon": "doctor.jpg"
+      "icon": "doctor.webp"
     },
     {
       "name": "Education",
-      "icon": "education.jpg"
+      "icon": "education.webp"
     },
     {
       "name": "Fitness",
-      "icon": "fitness.jpg"
+      "icon": "fitness.webp"
     },
     {
       "name": "Flowers",
-      "icon": "flower.jpg"
+      "icon": "flower.webp"
     },
     {
       "name": "Home Improvements",
-      "icon": "home-renovations-home-improvements.jpg"
+      "icon": "home-renovations-home-improvements.webp"
     },
     {
       "name": "Hospitals",
-      "icon": "hospital.jpg"
+      "icon": "hospital.webp"
     },
     {
       "name": "House Keeping",
-      "icon": "housekeeping-top-banner-new.png"
+      "icon": "housekeeping-top-banner-new.webp"
     },
     {
       "name": "Insurance",
-      "icon": "home-insurance-getty.jpg"
+      "icon": "home-insurance-getty.webp"
     },
     {
       "name": "Jobs",
-      "icon": "jobs.jpg"
+      "icon": "jobs.webp"
     },
     {
       "name": "Jewellery",
-      "icon": "jewellery.jpg"
+      "icon": "jewellery.webp"
     },
     {
       "name": "Labs",
-      "icon": "labs.jpg"
+      "icon": "labs.webp"
     },
     {
       "name": "Language Classes",
-      "icon": "languages.jpg"
+      "icon": "languages.webp"
     },
     {
       "name": "Medical",
-      "icon": "medical.png"
+      "icon": "medical.webp"
     },
     {
       "name": "On Demand Services",
-      "icon": "ondemand-icon-7.jpg"
+      "icon": "ondemand-icon-7.webp"
     },
     {
       "name": "Packers and Movers",
-      "icon": "packer-service.jpg"
+      "icon": "packer-service.webp"
     },
     {
       "name": "Party",
-      "icon": "party.jpg"
+      "icon": "party.webp"
     },
     {
       "name": "Personal Care",
-      "icon": "personal-care.png"
+      "icon": "personal-care.webp"
     },
     {
       "name": "Pest Control",
-      "icon": "product-jpeg-500x500.jpg"
+      "icon": "product-jpeg-500x500.webp"
     },
     {
       "name": "Pet & Pet Care",
-      "icon": "dog-pet-care-icon-vector-10516419.jpg"
+      "icon": "dog-pet-care-icon-vector-10516419.webp"
     },
     {
       "name": "Play School",
-      "icon": "play-school-interiors-500x500.jpg"
+      "icon": "play-school-interiors-500x500.webp"
     },
     {
       "name": "Real Estate",
-      "icon": "real-estate-logo-.jpg"
+      "icon": "real-estate-logo-.webp"
     },
     {
       "name": "Repairs",
-      "icon": "repair.jpg"
+      "icon": "repair.webp"
     },
     {
       "name": "Restaurants",
-      "icon": "restaurants.jpg"
+      "icon": "restaurants.webp"
     },
     {
       "name": "Security Services",
-      "icon": "security.jpg"
+      "icon": "security.webp"
     },
     {
       "name": "Transporters",
-      "icon": "transporters.jpg"
+      "icon": "transporters.webp"
     },
     {
       "name": "Wedding House",
-      "icon": "wedding-house-01.jpg"
+      "icon": "wedding-house-01.webp"
     }
   ]
 

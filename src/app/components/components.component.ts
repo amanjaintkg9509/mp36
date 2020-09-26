@@ -17,6 +17,7 @@ export class ComponentsComponent implements OnInit {
     focus;
     focus1;
     focus2;
+    public loading = false;
     date: {year: number, month: number};
     model: NgbDateStruct;
     constructor( private renderer : Renderer2) {}
@@ -30,6 +31,7 @@ export class ComponentsComponent implements OnInit {
     }
 
     ngOnInit() {
+        this.loading = true;
         let input_group_focus = document.getElementsByClassName('form-control');
         let input_group = document.getElementsByClassName('input-group');
         for (let i = 0; i < input_group.length; i++) {
@@ -40,6 +42,7 @@ export class ComponentsComponent implements OnInit {
                 input_group[i].classList.remove('input-group-focus');
             });
         }
+        this.loading = false;
     }
 
 }

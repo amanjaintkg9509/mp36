@@ -10,6 +10,8 @@ import { NavbarComponent } from './shared/navbar/navbar.component';
 import { FooterComponent } from './shared/footer/footer.component';
 
 import { ComponentsModule } from './components/components.module';
+import { NgxLoadingModule } from 'ngx-loading';
+
 
 
 @NgModule({
@@ -25,6 +27,7 @@ import { ComponentsModule } from './components/components.module';
     RouterModule,
     ComponentsModule,
     AppRoutingModule,
+    NgxLoadingModule.forRoot({})
   ],
   providers: [],
   bootstrap: [AppComponent]
